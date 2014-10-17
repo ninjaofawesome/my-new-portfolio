@@ -66,28 +66,28 @@
 
 
 .photo-box, .work-box{
-   background-image: url(images/helmethead.png);
+   background-image: url(../images/helmethead.png);
    max-width: 200px;
    height: 200px;
    display: block;
    margin: 0 auto;
    &.designer{
-    background-image: url(images/artisthannah.png);
+    background-image: url(../images/artisthannah.png);
    }
    &.learner {
-    background-image: url(images/learnedhannah.png);
+    background-image: url(../images/learnedhannah.png);
    }
    &.amy {
-    background-image: url(images/avd.png);
+    background-image: url(../images/avd.png);
    }
    &.cinna {
-    background-image: url(images/swedeheart.png);
+    background-image: url(../images/swedeheart.png);
    }
    &.techway {
-    background-image: url(images/techway.png);
+    background-image: url(../images/techway.png);
    }
    &.oldfashioned {
-    background-image: url(images/oldfashioned.png);
+    background-image: url(../images/oldfashioned.png);
    }
   }
 
