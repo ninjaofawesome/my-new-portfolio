@@ -1,22 +1,22 @@
-'use strict';
+// 'use strict';
 
-describe('Controller: MainCtrl', function () {
+// describe('Controller: DownwardsControllers', function () {
 
-  // load the controller's module
-  beforeEach(module('myNewPortfolioApp'));
+//   // load the controller's module
+//   beforeEach(module('myNewPortfolioApp'));
 
-  var MainCtrl,
-    scope;
+//   var DownCtrl,
+//     scope;
 
-  // Initialize the controller and a mock scope
-  beforeEach(inject(function ($controller, $rootScope) {
-    scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
-      $scope: scope
-    });
-  }));
+//   // Initialize the controller and a mock scope
+//   beforeEach(inject(function ($controller, $rootScope) {
+//     scope = $rootScope.$new();
+//     DownCtrl = $controller('DownCtrl', {
+//       $scope: scope
+//     });
+//   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
-    expect(scope.awesomeThings.length).toBe(3);
-  });
-});
+//   it('should hav', function () {
+//     expect(scope.awesomeThings.length).toBe(3);
+//   });
+// });

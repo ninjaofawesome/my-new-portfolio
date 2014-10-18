@@ -39,7 +39,7 @@ angular
       })
       .when('/oldfashioned', {
         templateUrl: 'views/oldfashioned.html',
-        controller: 'OldfashionedCtrl'
+        controller: 'OldFashionedCtrl'
       })
       .when('/techway', {
         templateUrl: 'views/techway.html',

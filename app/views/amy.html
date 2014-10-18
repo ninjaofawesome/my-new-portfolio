@@ -16,7 +16,8 @@
 
       <div class="row casestudy">
         <div class="col-md-10 col-md-offset-1">
-          <a href="http://modernloveclub.com/" target="_blank"><img class="site-img" src="images/mlc.png" alt="Amy Rocks Your Face Off" /></a>
+          <a href="http://modernloveclub.com/" target="_blank">
+          <img class="site-img" ng-src="images/mlc.png" alt="Amy Rocks Your Face Off" />
         </div>
       </div>
 
@@ -47,23 +48,21 @@
     <div class="col-md-4">
       <h1 class="case-study-title">The Setup</h1>
       <p class="case-study-paragraph">Amy Van Doran, founder of Modern Love Club, is a New York City based matchmaker who cares deeply about her clients’ love lives.  When I met Amy, she had a simple handmade site, which did not convey the level of personalized attention that she gives to her clientele, nor did it list all of the services available.</p>
-      <p class="case-study-paragraph">Amy was my first client, and I’ve had an ongoing (code based) relationship with her and her site for the last two years.  I approached Amy to build her site as it was an excellent chance for me to learn more about front end development as well as anticipating and meeting needs of small business owners.</p>
+      <p class="case-study-paragraph">Modern Love Club was my first project,  and I’ve had an ongoing, lovely (code based) relationship with Amy and her site for the last two years. I initally approached her and her branding team to build a new site that would showcase her and her talents, recognizing that Amy was an amazing matchmaker and had a really unique product- and I wanted to try building a site from start to finish. </p>
     </div>
 
     <div class="col-md-4">
       <h1 class="case-study-title">The Plan Of Attack</h1>
-      <p class="case-study-paragraph"> After consulting with Amy and her branding team initially, I realized that I didn’t need to store any information, so the best route would be a simple responsive site with the pre-existing, subscription-based MMPro code dropped in neatly for form submissions to an external database.</p>
-      <p class="case-study-paragraph">
-      When rebuilding Modern Love Club it was kept entirely client-side as services such as You Can Book Me and MMPro are effective for scheduling and matchmaking.  Notable changes to the site is concise and compartmentalized code thanks to Sass and Compass partials, Bootstrap over Foundation and jQuery functions for extra sparkle on the FAQ page.</p>
+      <p class="case-study-paragraph"> After consulting with Amy and her team, we decided that the best route was to introduce Amy to the public was all she needed, the administrative parts would be handled both offline and with different programs that she had subscribed to (such as MMpro, a matchmaking tool).  So we decided to build a static site and incorporating the MMpro software properly.</p>
+      <p class="case-study-paragraph">The second time that I worked with Amy to rebuild her site, we decided to keep the site client side only as well, as services such as You Can Book Me and MMpro were effectively handling scheduling and matchmaking needs.</p>
 
     </div>
 
     <div class="col-md-4">
       <h1 class="case-study-title">The Solution</h1>
-      <p class="case-study-paragraph">The first time I made a website for Amy (<a class="old-site" href="http://ninjaofawesome.github.io/old_amy_van_doran/">seen here</a>), I used Foundation 3 to handle responsive aspects of the site and plugged in the MMPro widget for form submissions.  Although a novice project, it was easy to maintain for the next year and a half, and conveyed to Amy's clientele her full range of services and contact methods.</p>
+      <p class="case-study-paragraph">The first time I made a website for Amy (<a class="old-site" href="http://ninjaofawesome.github.io/old_amy_van_doran/">seen here</a>), I used Foundation 3 to handle responsive aspects of the site and plugged in the MMPro widget for form submissions.  At the time, it was an impressive feat for me, and I maintained it (with little refactoring) for the next year and change.  A great starter project, as shown if the code is inspected.</p>
 
-      <p class="case-study-paragraph">The rebuilt site, thanks to better written code and proper use of tools, is much easier to use on multiple devices as well as much easier to maintain from a developer's standpoint.  This project was a good example of improvement over my front end development career, I look forward to more delightful long term clients like Amy.
-      </p>
+      <p class="case-study-paragraph">When I rebuilt the Modern Love Club site  for Amy a few months ago, I approached it much differently.  On this build I decided to make the code more developer friendly through best practices, CSS partials and easy to read jQuery scripts.  I also stored it all on Github, and used a Github Page as a “staging server” to keep Amy’s team abreast of my progress with the rebuild throughout.</p>
     </div>
   </div>
   <div class="row" ng-controller="UpCtrl">

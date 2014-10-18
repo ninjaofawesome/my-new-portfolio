@@ -18,7 +18,7 @@
       <div class="row">
         <div class="casestudy">
           <div class="col-md-10 col-md-offset-1">
-            <a href="http://techway-ny.herokuapp.com/" target="_blank"><img class="site-img" src="images/techwaysite.png" alt="Techway NY Rocks Your Face Off" /></a>
+            <a href="http://techway-ny.herokuapp.com/" target="_blank"><img class="site-img" ng-src="images/techwaysite.png" alt="Techway NY Rocks Your Face Off" /></a>
           </div>
         </div>
 
@@ -49,24 +49,22 @@
   <div class="row">
     <div class="col-md-4">
       <h1 class="case-study-title">The Setup</h1>
-      <p class="case-study-paragraph">Techway was a group extern project that I had the pleasure of working on while I was attending Flatiron.  It was meant to give us valuable experience working with clients and rails, while giving a service to a startup who might not otherwise be able to afford a custom built project.</p>
-      <p class="case-study-paragraph">For this project, we met with a local PC repair company run by Jamel Graham.  When we met Mr. Graham, he had a site that wasn’t really fitting the needs of his small company- it was hard for him to get clientele to contact him, difficult to maintain his records and update services as he needed.</p>
+      <p class="case-study-paragraph">Techway was a group extern project that I had the pleasure of working on at The Flatiron School.  It was meant to give us valuable experience working with clients who might not be able to afford a dev shop to build features, as well as more experience with Rails.</p>
+      <p class="case-study-paragraph">For this project, we met with a local PC repair company run by Jamel Graham.  When we met Mr. Graham, he had another handmade site that wasn’t really fitting the needs of his small company- it was hard for him to get clientele to contact him, difficult to maintain his records or update services.</p>
     </div>
 
     <div class="col-md-4">
       <h1 class="case-study-title">The Plan Of Attack</h1>
-      <p class="case-study-paragraph">
-After consulting with Mr. Graham, we determined that he would benefit most from a custom built content management system that had administrative and client side features without many bells and whistles.  On the client side, he needed a form for submissions, a form reviews, a list of services and (as it was important to Mr. Graham) positive reviews.  On the admin side, Mr. Graham needed a way to organize client records, choose reviews to feature on the landing page and have the ability to update services.</p>
-      <p class="case-study-paragraph">We used Rails 3.2 for this project and minimally used gems for components for a richer learning experience.</p>
+      <p class="case-study-paragraph">After consulting with him, our team determined that he would benefit most from a custom built CMS that had bell-and-whistle free administrative and client side features.  On the client side, he needed a form for submissions, a form for clients to submit reviews, a list of services he could update, a way to organize and update client information and a way to cherry pick reviews to be featured on the landing page. </p>
+      <p class="case-study-paragraph">We used Rails 3.2 for this and used some popular gems (such as Devise for user authentication), but most components were built by hand otherwise for a richer learning experience.  We divided each point of the criteria into features and “quad programmed”  (one driver, three contributors) on each.</p>
 
     </div>
 
     <div class="col-md-4">
       <h1 class="case-study-title">The Solution</h1>
-      <p class="case-study-paragraph">Working with a group of three, we built him a content management system which met all of his needs.  We deployed his project to Heroku for staging and set up a server on Digital Ocean for production.  Our project was completed on time, with all parameters met.
-</p>
+      <p class="case-study-paragraph">In a month, our team was able to build Mr. Graham a CMS that met all his needs for administrators and also created a clean, timeless front end to display it to the public.  We also successfully deployed the site to Heroku for a staging area and created a server on Digital Ocean for the production version.</p>
 
-      <p class="case-study-paragraph">One of the best parts of working on Techway is that with a group of three other students, we were able to quad program, each taking turns to drive the programming and to find solutions for areas we got stuck in collaboratively.  </p>
+      <p class="case-study-paragraph">One of the best parts of working on Techway is that with a group of three other students, we were able to form a supportive team to produce a unique product.  We learned much about efficient coding, version control and how to work with nontechnical clients in a way that showcased our natural talents and newly learned ones. </p>
     </div>
   </div>
   <div class="row" ng-controller="UpCtrl">

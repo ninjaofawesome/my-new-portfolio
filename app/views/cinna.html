@@ -16,7 +16,8 @@
 
       <div class="row casestudy">
         <div class="col-md-10 col-md-offset-1">
-          <a href="http://swedeheart.me/" target="_blank"><img class="site-img" src="images/swedehearts.png" alt="Swedeheart Rocks Your Face Off" /></a>
+          <a href="http://swedeheart.me/" target="_blank">
+          <img class="site-img" ng-src="images/swedehearts.png" alt="Swedeheart Rocks Your Face Off" /></a>
         </div>
       </div>
 
@@ -46,22 +47,26 @@
   <div class="row">
     <div class="col-md-4">
       <h1 class="case-study-title">The Setup</h1>
-      <p class="case-study-paragraph">Cinna Liselott, a dear friend of mine, is a New York City based puppeteer.  She is fortunate to have a full time position creating and performing puppet shows throughout the city, but wanted to have a site of her own as she wanted to expand her horizons through children’s puppet parties.</p>
-      <p class="case-study-paragraph">I was interested in working with Cinna as I wanted to gain some more experience with parallax scrolling, and I felt that she had a unique product that deserved a unique site.</p>
+      <p class="case-study-paragraph">
+      Cinna Liselott, a dear friend of mine, is a New York City based puppeteer.  She is fortunate  in the regard to have a full time job creating and performing puppet shows throughout the city, but wanted to have a site of her own as she wanted to expand her horizons through children’s puppet parties in her free time.  She loves her craft that much.
+      </p>
+      <p class="case-study-paragraph">I was interested in working with Cinna as I wanted to gain some more experience with parallax scrolling, and I felt that she had a unique product that deserved a unique site.  So I approached her to build a custom site for her that showcased her talents as well as gave me some valuable learning both with parallax scrolling and attaching domains to a Github Page. </p>
     </div>
 
     <div class="col-md-4">
       <h1 class="case-study-title">The Plan Of Attack</h1>
-      <p class="case-study-paragraph">For this project, Cinna only needed a way for parents to see what services she offered and a way to contact her, that’s about it.  Since I was more interested in creating a parallax effect, I decided to keep it simple and focus more on the functions and to keep it all client side.</p>
-      <p class="case-study-paragraph">I decided to use Bootstrap for a CSS framework out of preference, and use SASS partials using a widget-based CSS over object oriented CSS.  All of the movement I decided to handle with hand written jQuery (rather than using something pre-written) so that I could figure out how parallax scrolling really worked.</p>
+      <p class="case-study-paragraph">For this project, Cinna really only needed a way for parents to see what services she offered and a way to contact her.  Since I was more interested in creating a parallax effect than setting up a complex project with data storing capacity, I decided to keep it simple and focus more on the functions and to keep it as a high fidelity rapid prototype.</p>
+      <p class="case-study-paragraph">
+      I decided to use Bootstrap for a CSS framework out of preference, and used some simple SASS partials to keep things neat and tidy.  All of the movement I decided to handle with hand written jQuery (rather than using something pre-written, such as Skrollr) so that I could kick it up a notch on the learning curve.  (I succeeded.)
+      </p>
 
     </div>
 
     <div class="col-md-4">
       <h1 class="case-study-title">The Solution</h1>
-      <p class="case-study-paragraph">The end result was a simple, single page site with aspects of parallax scrolling.  (The effect looked similar, but the background doesn’t actually scroll slower than the foreground.)  For the more information boxes, I used some jQuery to show and hide elements.</p>
+      <p class="case-study-paragraph">The end result was a pretty SPA with aspects of parallax scrolling.  (The effect looked similar, but the background doesn’t actually scroll slower than the foreground.)  For the more information boxes, I used some jQuery to show and hide elements.  Although small, both of these scripts gave me some much needed work in refactoring for dry code, which was really fun.</p>
 
-      <p class="case-study-paragraph">Also, as there was no actual budget for this project and it was a single page application, I was able to deploy it as a github page with its own domain name. </p>
+      <p class="case-study-paragraph">Working with Cinna was a great experience.  I found working with her to help me figure out cost and time effective solutions for small businesses, while also giving me more room to build my skills as a developer.</p>
     </div>
   </div>
   <div class="row" ng-controller="UpCtrl">
